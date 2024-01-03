@@ -9,8 +9,8 @@ public class MergeSortedArray {
    *
    *
    * Çözüm:Sondan başlayarak arraylerin elemanlarını karşılaştır.hangisi büyükse onu yaz ve bir önceki indexe geç ve tekrar kıyasla
-   * Baştan başlamak nums1deki sayıları değiştirir
-   * nums1 arrayinde n kadar 0 olacağı için koşul nums2 arrayinin indexi 0dan küçük olmaması olmalı */
+   * Baştan başlamak nums1deki sayıları değiştirir sondan başla
+   * nums1 arrayinde n kadar 0 olacağı için koşul nums2 arrayinin indexi 0dan küçük olmaması olmalıki 0 harici sayılarla çakışma olmasın */
 
   public void merge(int[] nums1,int m,int[] nums2,int n) {
 	int nums1LastIndex = m - 1;
