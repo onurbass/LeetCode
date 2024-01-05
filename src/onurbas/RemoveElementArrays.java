@@ -19,6 +19,7 @@ public class RemoveElementArrays {
 		  nums[k] = nums[i];
 		  nums[i] = temp;
 		  k++;
+
 		}
 	  }
 	}
