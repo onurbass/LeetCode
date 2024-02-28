@@ -3,7 +3,7 @@ package onurbas;
 public class MergeSortedArray {
   /*
    * nums1 ve nums2 sorted arrayler. gelen nums1 arrayi elemanları ve nums2 nin lenghti kadar yani n kadar 0 la gelecek
-   *  örneğin n=3 için nums 1 arrayi 1 2 3 4 0 0 0.
+   *  örneğin n=3 için nums 1 arrayi 1 2 3 4 0 0 0..
    * ancak m nums1 arrayinin length i değil 0 olmayan eleman sayısı.
    * buna göre nums1 arrayini nums2 arrayi ile sıralı bir şekilde birleştir ve nums1 arrayinin üstüne yaz
    *
